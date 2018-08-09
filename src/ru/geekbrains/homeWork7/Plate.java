@@ -9,8 +9,8 @@ public class Plate {
         food -= n;
     }
     public void info() {
-        if (food <= 0) System.out.println("Тарелка пуста");
-        else System.out.println("plate: " + food);
+        if (food <= 0) System.out.println("Еды не хватает");
+        else System.out.println("Еда в миске: " + food);
     }
 
     public int getFood() {

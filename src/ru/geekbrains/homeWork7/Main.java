@@ -11,6 +11,7 @@ public class Main {
         cats [4] = new Cat("Васька", 20, false);
         Plate plate = new Plate(100);
         plate.info();
+        
         for (int i = 0;i < 5; i++) {
             cats[i].catInfo();
             cats [i].eat(plate);

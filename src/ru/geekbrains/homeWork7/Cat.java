@@ -16,7 +16,7 @@ public class Cat {
         appetite -= p.getFood();
     }
     public void satietyInfo () {
-        while (appetite <= 0) {satiety = true;}
+        if (appetite <= 0) satiety = true;
             System.out.println("Сытость - " + satiety);
 
     }
@@ -24,4 +24,7 @@ public class Cat {
         System.out.println("Зовут - " + name + "\n" + "Аппетит - " + appetite);
     }
 
+    public String getName() {
+        return name;
+    }
 }
